@@ -1,5 +1,5 @@
 # **Ma513 Project | Hands-On Machine Learning for Cybersecurity**
-# Named Entity Recognition (NER) for Cybersecurity-Related Entities in Text
+## Named Entity Recognition (NER) for Cybersecurity-Related Entities in Text
 
 This repository contains the code and experiments for developing a NER model using various machine learning algorithms. The focus of this project is on exploring tree-based classifiers, from simple decision trees to more complex models like Random Forest and LightGBM (LGBM), and compare their performance to more complex, transfomer-based ones such as BERT. Through this approach, our aim was to build a robust NER model by applying the knowledge acquired in class to deepen our understanding of concepts like feature extraction, model selection, and performance evaluation.
 
