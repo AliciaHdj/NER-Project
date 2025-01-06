@@ -26,7 +26,7 @@ LightGBM (LGBM) : Finally, we settled on LightGBM, a gradient boosting model, fo
 BERT : Simultaneously, we tried developping a basic "bert-base-cased" model to explore and compare its performance to classical machine learning algortihms. <br>
 
 ## Dataset
-The dataset used for this project consists of annotated NER data in the format of JSON Lines files. It contains samples composed of unique ids, tokens and their corresponding NER tags. The files are exctracted directly from the subject's github repository, so loading and preprocessing these datasets can be done using the provided functions in the code.
+The dataset used for this project consists of annotated NER data in the format of JSON Lines files. It contains samples composed of unique ids, tokens and their corresponding NER tags. The files are extracted directly from the subject's github repository, so loading and preprocessing these datasets can be done using the provided functions in the code.
 
 **File Format** <br>
 Training Data : NER_TRAINING.jsonl <br>
