@@ -7,11 +7,19 @@ This repository contains the code and experiments for developing a NER model usi
 Our whole approach is deailed in the corresponding written report (Ma513_16__AliciaHEDDADJ_AliyahPARFAIT.pdf), and our final results can be found in Predictions.zip and Models.zip files.
 
 **Table of Contents**<br>
+- [Installation](#installation)
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Model Development](#model-development)
-- [Installation](#installation)
 
+## Installation
+The notebook containing the code was made with the following versions :
+- Python 3.10.12
+- Pandas 2.2.2
+- Scikit-learn 1.6.0
+- Lightgbm 4.5.0
+- Matplotlib 3.8.0
+  
 ## Project Overview
 This project began with the goal of exploring classical machine learning algorithms for NER, before progressing to more complex models like transformers. We started by using the Classification Learner plugin in MATLAB to explore various basic models, which provided us rapid insights into the model performance. These insights helped guide us towards tree-based models, ending in the selection of the LightGBM classifier (LGBM) for its efficiency and performance on our NER task. In parallel, we also tried exploring transformer-based models despite our constraints in resources.
 
@@ -36,10 +44,3 @@ Validation Data : NER_VALIDATION.jsonl <br>
 Testing Data : NER_TESTING.jsonl <br>
 The features are extracted from the tokens in these files, and the NER tags are used to train the model.
 
-## Installation
-The notebook containing the code was made with the following versions :
-- Python 3.10.12
-- Pandas 2.2.2
-- Scikit-learn 1.6.0
-- Lightgbm 4.5.0
-- Matplotlib 3.8.0
