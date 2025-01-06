@@ -4,7 +4,7 @@
 **Group 16 | Alicia HEDDADJ - Aliyah PARFAIT | CDI**
 
 This repository contains the code and experiments for developing a NER model using various machine learning algorithms. The focus of this project is on exploring tree-based classifiers, from simple decision trees to more complex models like Random Forest and LightGBM (LGBM), and compare their performance to more complex, transfomer-based ones such as BERT. Through this approach, our aim was to build a robust NER model by applying the knowledge acquired in class to deepen our understanding of concepts like feature extraction, model selection, and performance evaluation. <br>
-Our whole approach is deailed in the corresponding written report (Ma513_16__AliciaHEDDADJ_AliyahPARFAIT.pdf), and our final results can be found in Predictions.zip. The Models.zip file containing our models is available in the latest release.
+Our whole approach is deailed in the corresponding written report (Ma513_16_AliciaHEDDADJ_AliyahPARFAIT.pdf), and our final results can be found in Predictions.zip. The **Models.zip** file containing our models is available in the **latest release**.
 
 **Table of Contents**<br>
 - [Installation](#installation)
